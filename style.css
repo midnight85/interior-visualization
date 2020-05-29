@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#main_container {
+    /* margin-top: 15px; */
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+}
+#container  {
+    border: 1px solid #000000;
+
+}
+
+#minimap {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 300px);
+}
+
+.map {
+    height: 100%;
+    background-image: url('background_.png');
+    background-repeat: no-repeat;
+    -moz-background-size: 100%;
+    background-size: 100%; 
+    
+}
+
+
+.light {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    
+}
+
+[type='radio'] {
+display: none; 
+
+}
+
+.light > label,.light >  button {
+    background: #e7c81a;
+    
+    border: none;
+    color: #444444;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.room {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    border: 1px solid #ff0000; 
+    cursor: pointer;
+}
+
+#room1 {
+    position: absolute;
+    top: 340px;
+    left: 375px;
+}
+
+#room2 {
+    position: absolute;
+    top: 340px;
+    left: 300px;
+}
+
+#room3 {
+    position: absolute;
+    top: 280px;
+    left: 370px;
+}
+
+#room4 {
+    position: absolute;
+    top: 400px;
+    left: 240px;
+}
+
+#room5 {
+    position: absolute;
+    top: 400px;
+    left: 120px;
+}
+
+#room6 {
+    position: absolute;
+    top: 210px;
+    left: 140px;
+}
+
+#room7 {
+    position: absolute;
+    top: 220px;
+    left: 260px;
+}
+
+#room8 {
+    position: absolute;
+    top: 190px;
+    left: 420px;
+}
+
+#room9 {
+    position: absolute;
+    top: 280px;
+    left: 470px;
+}
+
+#room10 {
+    position: absolute;
+    top: 340px;
+    left: 500px;
+}
