@@ -6,7 +6,7 @@
 }
 
 #main_container {
-    /* margin-top: 15px; */
+    
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -14,11 +14,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 10px;
-}
-#container  {
-    border: 1px solid #000000;
-
+    
 }
 
 #minimap {
